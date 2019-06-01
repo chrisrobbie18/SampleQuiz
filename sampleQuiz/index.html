@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sample Quiz</title>
+	<link rel="icon" href="images/favicon.ico"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/alertify.min.css">
+	<script src="js/alertify.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<div class="background">
+			<h1>This is our quiz</h1>
+			<h6><i class="fas fa-frown"></i>System Analysis & Design (SAD, 5-30-19) <br> Professor: <a href="https://www.facebook.com/ryan.3z3"> Ryan Barera </a> <br> By: <a href="https://www.facebook.com/oLdokz7"> Christian Robles </a></h6>
+		</div>
+
+			<form id="quiz" name="quiz" method="POST" action="">
+				<p>1. Is an electromechanical data storage device that uses magnetic storage to store and retrieve digital information using one or more rigid rapidly rotating disks (platters) coated with magnetic material.</p>
+				<input type="radio" id="mc" name="question1" value="hdd">Hard Disk Drive</br>
+				<input type="radio" id="mc" name="question1" value="usb">Flash Drive</br>
+				<input type="radio" id="mc" name="question1" value="cdrom">CD-ROM Drive</br>
+				<input type="radio" id="mc" name="question1" value="floppy">Floppy Drive</br>
+				<hr>
+
+				<p>2. Below are the things you can do with BIOS except.</p>
+				<input type="radio" id="mc" name="question2" value="update">Update Driver</br>
+				<input type="radio" id="mc" name="question2" value="change">Change Date and Time</br>
+				<input type="radio" id="mc" name="question2" value="boot">Change Boot priority</br>
+				<input type="radio" id="mc" name="question2" value="vt">Enable Virtualization Technology</br>
+				<hr>
+
+				<p>3. How to open Windows System Configuration tool?</p>
+				<input type="radio" id="mc" name="question3" value="1">Press Windows + E and click System Config icon</br>
+				<input type="radio" id="mc" name="question3" value="2">Press Windows + R and click System Config icon</br>
+				<input type="radio" id="mc" name="question3" value="3">Press Windows + R and type config.msc then hit enter</br>
+				<input type="radio" id="mc" name="question3" value="4">Press Windows + R and type msconfig then hit enter</br>
+				<hr>
+
+				<p>4. What is the shortcut key on opening windows system properties?</p>
+				<input type="radio" id="mc" name="question4" value="1">Windows key + F5</br>
+				<input type="radio" id="mc" name="question4" value="2">Windows key + Pause Break</br>
+				<input type="radio" id="mc" name="question4" value="3">Windows key + Caps Lock</br>
+				<input type="radio" id="mc" name="question4" value="4">None of the above</br>
+				<hr>
+
+				<p>5. Below are the things you can perform in cmd except.</p>
+				<input type="radio" id="mc" name="question5" value="1">ping</br>
+				<input type="radio" id="mc" name="question5" value="2">perform trace route or tracert</br>
+				<input type="radio" id="mc" name="question5" value="3">ran diskpart</br>
+				<input type="radio" id="mc" name="question5" value="4">ran selfie.exe</br>
+				<hr>
+
+				<p>6. Set of computers connected together for the purpose of sharing resources.</p>
+				<select id = "myList" name="question6">
+					<option value = "0">Choose your right answer</option>
+			        <option value = "1">Computer Network</option>
+			        <option value = "2">Social Networking</option>
+			        <option value = "3">Windows Server</option>
+			        <option value = "4">Switch</option>
+			    </select>
+			    <hr>
+
+				<p>7. When you check system properties and you found out this information "Intel Core i7 - 6700 K processor".  What does the 6 represents there?.</p>
+				<select id = "myList" name="question7">
+					<option value = "0">Choose your right answer</option>
+			        <option value = "1">Number of core withtin the processor</option>
+			        <option value = "2">Frequency of the processor</option>
+			        <option value = "3">Generation Indicator</option>
+			        <option value = "4">SKU Digit Identifier</option>
+			    </select>
+			    <hr>
+
+			    <p>8. What is the transfer rate of a standard USB 2.0 Device?</p>
+				<select id = "myList" name="question8">
+					<option value = "0">Choose your right answer</option>
+			        <option value = "1">100 Mbit/s</option>
+			        <option value = "2">480 Mbit/s</option>
+			        <option value = "3">1 Gbit/s</option>
+			        <option value = "4">250 Mbit/s</option>
+			    </select>
+			    <hr>
+
+			    <p>9. What does BIOS stand for?</p>
+				<select id = "myList" name="question9">
+					<option value = "0">Choose your right answer</option>
+			        <option value = "1">Byte Integration Operations System</option>
+			        <option value = "2">Basic Interconnect Operating System</option>
+			        <option value = "3">Basic Input Output System</option>
+			        <option value = "4">Basic Interface Operating System</option>
+			    </select>
+			    <hr>
+
+			    <p>10. How can we take a screen shot?</p>
+				<select id = "myList" name="question10">
+					<option value = "0">Choose your right answer</option>
+			        <option value = "1">Press print screen in key board, word document, paste</option>
+			        <option value = "2">In keyboard press print screen,paint,paste</option>
+			        <option value = "3">Print screen, paint select and crop</option>
+			        <option value = "4">Get your camera and have take a picture.</option>
+			    </select>
+			    <hr>
+
+			    <p>11. What are the two types of transmission technology available?</p>
+				<input type="radio" id="mc" name="question11" value="update">Update Driver</br>
+				<input type="radio" id="mc" name="question11" value="ans11">broadcast and point-to-point.</br>
+				<input type="radio" id="mc" name="question11" value="boot">Change Boot priority</br>
+				<input type="radio" id="mc" name="question11" value="vt">Enable Virtualization Technology</br>
+				<hr>
+
+				<p>12. What is a ‘subnet’?</p>
+				<input type="radio" id="mc" name="question12" value="update">There are 7 layers – physical, data link, network, transport, session, presentation, and application.</br>
+				<input type="radio" id="mc" name="question12" value="change">broadcast and point-to-point.</br>
+				<input type="radio" id="mc" name="question12" value="ans12">A ‘subnet’ is a generic term for a section of a large network, usually separated by a bridge or a router.</br>
+				<input type="radio" id="mc" name="question12" value="vt">Enable Virtualization Technology</br>
+				<hr>
+
+				<p>13. What is DNS?</p>
+				<input type="radio" id="mc" name="question13" value="ans13">Domain Name System (DNS)</br>
+				<input type="radio" id="mc" name="question13" value="change">broadcast and point-to-point.</br>
+				<input type="radio" id="mc" name="question13" value="boot">Change Boot priority</br>
+				<input type="radio" id="mc" name="question13" value="vt">Enable Virtualization Technology</br>
+				<hr>
+
+				<p>14. ‘hidden shares’.</p>
+				<input type="radio" id="mc" name="question14" value="update">There are 7 layers – physical, data link, network, transport, session, presentation, and application.</br>
+				<input type="radio" id="mc" name="question14" value="ans14">A hidden or an administrative share is a network share that is not visible when viewing another computer’s shares.</br>
+				<input type="radio" id="mc" name="question14" value="boot">Change Boot priority</br>
+				<input type="radio" id="mc" name="question14" value="vt">Enable Virtualization Technology</br>
+				<hr>
+
+				<p>15. How many layers are there in the OSI model?</p>
+				<input type="radio" id="mc" name="question15" value="ans15">physical, data link, network, transport, session, presentation, and application.</br>
+				<input type="radio" id="mc" name="question15" value="change">bios, hardware, software, cmos, element, andriod, app.</br>
+				<input type="radio" id="mc" name="question15" value="boot">Change Boot priority</br>
+				<input type="radio" id="mc" name="question15" value="vt">Enable Virtualization Technology</br>
+				<hr>
+
+				<p>16. What is a ‘client’ and ‘server’ in a network?</p>
+				<input type="radio" id="mc" name="question16" value="update">A frame relay is a packet-switching technology. It operates in the data link layer.</br>
+				<input type="radio" id="mc" name="question16" value="ans16">Clients and servers are separate logical entities that work together over a network to accomplish a task.</br>
+				<input type="radio" id="mc" name="question16" value="boot">user</br>
+				<input type="radio" id="mc" name="question16" value="vt">modifier</br>
+				<hr>
+
+				<p>17. What are the different ways to exchange data?</p>
+				<input type="radio" id="mc" name="question17" value="ans17">Simplex, Half-duplex, Full-duplex</br>
+				<input type="radio" id="mc" name="question17" value="change">LAN, ROOT, SERVER</br>
+				<input type="radio" id="mc" name="question17" value="boot">Connector, maintainance, deploy</br>
+				<input type="radio" id="mc" name="question17" value="vt">Command, CMD, MDB</br>
+				<hr>
+
+				<p>18. What is ‘beaconing’?</p>
+				<input type="radio" id="mc" name="question18" value="ans18">Beaconing is the process that allows a network to self-repair networks problems.</br>
+				<input type="radio" id="mc" name="question18" value="change">Beaconing is porf slice.</br>
+				<input type="radio" id="mc" name="question18" value="boot">Beaconing is the Viand generally</br>
+				<input type="radio" id="mc" name="question18" value="vt">Beaconing is the destroyer.</br>
+				<hr>
+
+				<p>19. What is an IP address?</p>
+				<input type="radio" id="mc" name="question19" value="update">Interface Producer</br>
+				<input type="radio" id="mc" name="question19" value="ans19">Internet Protocol</br>
+				<input type="radio" id="mc" name="question19" value="boot">Internet Proof</br>
+				<input type="radio" id="mc" name="question19" value="vt">Interactive Power</br>
+				<hr>
+
+				<p>20. What is ICMP?</p>
+				<input type="radio" id="mc" name="question20" value="update">Interview Comment ManPower</br>
+				<input type="radio" id="mc" name="question20" value="change">Inter Company Monitor Product</br>
+				<input type="radio" id="mc" name="question20" value="boot">None of these choices</br>
+				<input type="radio" id="mc" name="question20" value="ans20">Internet Control Message Protocol</br>
+				</br>
+				</br>
+				<div class="submit">
+					<input type="button" id="button" value="Submit" onclick="checkAnswer();">
+				</div>
+			</form>
+
+		
+	</div>
+
+</body>
+</html>

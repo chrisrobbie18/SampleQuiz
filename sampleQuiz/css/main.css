@@ -1,0 +1,224 @@
+body {
+	background: url('../images/cutelab.jpg') fixed no-repeat;
+	background-size: cover;
+	background-position: center;
+    font-family: sans-serif;
+    margin: 20px;
+    height: 100%;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+	box-shadow: 0px 5px 20px 10px #555;
+	background-color: rgba(255,255,255,0.9);
+	margin-top: 0px;
+	border-radius: 10px;
+	padding-bottom: 60px;
+}
+.container .background {
+	background-color: #1fc8db;
+	height: 80px;
+	border-bottom: 1px solid green;
+	padding: 0px 20px 0px 20px;
+	border-radius: 10px 10px 0px 0px;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+.container .background i {
+	margin-right: 5px;
+}
+.container .background a {
+	color: #025a91;
+	font-weight: normal;
+	font-style: italic;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.container .background a:hover {
+	text-decoration: underline #000;
+}
+.container h1 {
+	float: left;
+	margin: 15px 0px 0px 10px;
+	font-size: 28px;
+	color: #222;
+	cursor: pointer;
+}
+.container h6 {
+	float: right;
+	margin: 13px 0px 3px 0px;
+	color: #111;
+	font-size: 13px;
+}
+.container form {
+	clear: both;
+	padding: 30px;
+}
+.container form input[type="radio"] {
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+}
+.container form {
+	position: relative;
+}
+.submit {
+  	width: 200px;
+  	margin:auto;
+  }
+.container form .submit input[type="button"] {
+	height: 40px;
+	width: 200px;
+	border: none;
+	cursor: pointer;
+	background-color: #ccc;
+	border-radius: 50px;
+	font-size: 25px;
+	position: absolute;
+	bottom: -20px;
+	color: #333;
+	background-color: #1fc8db;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+.container form input[type="button"]:hover {
+	color: #000;
+	cursor: pointer;
+	transition: 0.5s;
+	box-shadow: 0px 0px 10px 10px #ddd;
+}
+.container form select {
+	text-align: center;
+	width: 400px;
+	margin: auto;
+	padding: 5px;
+	cursor: pointer;
+	font-size: 17px;
+	border-radius: 30px;
+}
+.container form select:hover {
+	background-color: #1fc8db;
+	transition: 1s;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+hr {
+	border: .50px solid #000;
+	margin-top: 10px;
+	clear: both;
+}
+.container .answer {
+	position: fixed;
+	background-color: transparent;
+	top: 46%;
+    left: 40%;
+    width: 400px;
+    text-align: center;
+    height: 135px;
+    text-align: center;
+}
+
+input:focus,
+select:focus {
+	outline: none;
+}
+
+@media screen and (max-width: 808px) {
+  body {
+	-webkit-background: url('../images/cutelab.jpg') fixed no-repeat;
+	-webkit-background-size: cover;
+	-webkit-background-position: center;
+	}
+  .container h6 {
+	float: right;
+	margin: 10px 0px 0px 12px;
+	color: #111;
+  }
+  .container h1 {
+	float: left;
+	margin: 10px 0px 0px 10px;
+	font-size: 23px;
+  }
+  .container .background {
+	background-color: #1fc8db;
+	height: 100px;
+	border-bottom: 1px solid green;
+	padding: 0px 20px 0px 20px;
+	border-radius: 10px 10px 0px 0px;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  }
+  .container form .submit input[type="button"] {
+	height: 30px;
+	width: 180px;
+	border: none;
+	background-color: #ccc;
+	border-radius: 50px;
+	font-size: 17px;
+	color: #333;
+	background-color: #1fc8db;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  }
+  .container form select {
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	padding: 5px;
+	font-size: 12px;
+	border-radius: 30px;
+  }
+}
+@media screen and (max-width: 588px) {
+	body {
+	-webkit-background: url('../images/cutelab.jpg') fixed no-repeat;
+	-webkit-background-size: cover;
+	-webkit-background-position: center;
+	}
+	.container h6 {
+	float: left;
+	margin: 5px 0px 0px 12px;
+	color: #111;
+	font-size: 12px;
+  }
+  .container h1 {
+	float: left;
+	margin: 5px 0px 0px 10px;
+	font-size: 17px;
+  }
+  .container .background {
+	background-color: #1fc8db;
+	height: 100px;
+	border-bottom: 1px solid green;
+	padding: 0px 20px 10px 20px;
+	border-radius: 10px 10px 0px 0px;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  }
+  .container form select {
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	padding: 5px;
+	font-size: 12px;
+	border-radius: 30px;
+  }
+  .container form .submit input[type="button"] {
+	height: 30px;
+	width: 195px;
+	border: none;
+	background-color: #ccc;
+	border-radius: 50px;
+	font-size: 15px;
+	color: #333;
+	background-color: #1fc8db;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  }
+}
+@media screen and (max-width: 320px) {
+	.container form .submit input[type="button"] {
+	height: 30px;
+	width: 160px;
+	border: none;
+	background-color: #ccc;
+	border-radius: 50px;
+	font-size: 13px;
+	color: #333;
+	background-color: #1fc8db;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  }
+}
